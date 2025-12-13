@@ -1,9 +1,8 @@
 <template>
   <div>
     <!-- Hero Section -->
-    <section class="relative text-white section-padding overflow-hidden" style="min-height: 300px;">
+    <section class="relative text-white section-padding overflow-hidden" :style="{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }">
       <div class="absolute inset-0 z-0">
-        <img src="@/assets/hero-bg-3.jpg" alt="Background" class="w-full h-full object-cover" />
         <div class="absolute inset-0 bg-gradient-to-br from-primary-600/80 via-primary-700/80 to-primary-800/80"></div>
       </div>
       <div class="relative z-10 container-custom px-4 sm:px-6 lg:px-8">
