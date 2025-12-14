@@ -18,11 +18,11 @@
 
       <div class="relative z-20 container-custom section-padding pb-20 sm:pb-16 md:pb-12 lg:pb-8">
         <div class="max-w-3xl mx-auto text-center">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight px-4">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight px-4 animate-fade-in-up">
             Institut Supérieur d'Administration<br class="hidden sm:block" />
             <span class="block sm:inline">Sciences Economiques et de Gestion</span>
           </h1>
-          <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-primary-100 px-4">
+          <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-primary-100 px-4 animate-fade-in-up-delay">
             Excellence académique et professionnelle au service du développement du Togo
           </p>
           <div

@@ -39,8 +39,13 @@
         <div>
           <h3 class="text-white font-bold text-base md:text-lg mb-3 md:mb-4">Formations</h3>
           <ul class="space-y-2">
-            <li v-for="formation in formations" :key="formation" class="text-xs md:text-sm">
-              {{ formation }}
+            <li v-for="formation in formations" :key="formation.id" class="text-xs md:text-sm">
+              <router-link 
+                :to="formation.path" 
+                class="hover:text-primary-400 transition-colors"
+              >
+                {{ formation.name }}
+              </router-link>
             </li>
           </ul>
         </div>
@@ -100,9 +105,10 @@ const quickLinks = [
 ]
 
 const formations = [
-  'Administration',
-  'Sciences Economiques',
-  'Gestion',
+  { id: 1, name: 'Administration', path: '/formations' },
+  { id: 2, name: 'Sciences Economiques', path: '/formations' },
+  { id: 3, name: 'Gestion', path: '/formations' },
+  { id: 4, name: 'Imagerie Médicale', path: '/formation/imagerie-medicale' },
 ]
 </script>
 

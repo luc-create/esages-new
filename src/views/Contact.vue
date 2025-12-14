@@ -6,8 +6,26 @@
         <div class="absolute inset-0 bg-gradient-to-br from-primary-600/80 via-primary-700/80 to-primary-800/80"></div>
       </div>
       <div class="relative z-10 container-custom px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4">Contactez-nous</h1>
-        <p class="text-base sm:text-lg md:text-xl text-primary-100">Nous sommes là pour répondre à toutes vos questions</p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in-up">Contactez-nous</h1>
+        <p class="text-base sm:text-lg md:text-xl text-primary-100 animate-fade-in-up-delay">Nous sommes là pour répondre à toutes vos questions</p>
+      </div>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="section-padding bg-gray-50">
+      <div class="container-custom px-4 sm:px-6 lg:px-8">
+        <div class="rounded-lg overflow-hidden shadow-lg" style="height: 450px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5!2d1.2!3d6.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDYnMDAuMCJOIDHCsDEyJzAwLjAiRQ!5e0!3m2!1sfr!2stg!4v1234567890123!5m2!1sfr!2stg&q=Avenue+Pya+TOTSI+Lomé+Togo"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="w-full h-full"
+          ></iframe>
+        </div>
       </div>
     </section>
 
@@ -116,7 +134,10 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-gray-900 mb-1">Adresse</h3>
-                  <p class="text-gray-600">Lomé, Togo</p>
+                  <p class="text-gray-600">
+                    Siège: Avenue Pya (TOTSI) non loin de la station d'essence SANOL de TOTSI<br>
+                    Lomé, Togo
+                  </p>
                 </div>
               </div>
 
@@ -142,7 +163,11 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-gray-900 mb-1">Téléphone</h3>
-                  <p class="text-gray-600">Contactez-nous pour obtenir notre numéro</p>
+                  <div class="flex flex-col gap-1">
+                    <a href="tel:+22822515657" class="text-primary-600 hover:text-primary-700">+228 22 51 56 57</a>
+                    <a href="tel:+22891785014" class="text-primary-600 hover:text-primary-700">+228 91 78 50 14</a>
+                    <a href="tel:+22897372328" class="text-primary-600 hover:text-primary-700">+228 97 37 23 28</a>
+                  </div>
                 </div>
               </div>
             </div>

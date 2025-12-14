@@ -9,8 +9,8 @@
                 </div>
             </div>
             <div class="relative z-10 container-custom px-4 sm:px-6 lg:px-8">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4">Galerie Photo</h1>
-                <p class="text-base sm:text-lg md:text-xl text-primary-100">Découvrez les moments forts de l'ISAGES</p>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in-up">Galerie Photo</h1>
+                <p class="text-base sm:text-lg md:text-xl text-primary-100 animate-fade-in-up-delay">Découvrez les moments forts de l'ISAGES</p>
             </div>
         </section>
 

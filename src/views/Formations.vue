@@ -6,9 +6,8 @@
         <div class="absolute inset-0 bg-gradient-to-br from-primary-600/80 via-primary-700/80 to-primary-800/80"></div>
       </div>
       <div class="relative z-10 container-custom px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4">Nos Formations</h1>
-        <p class="text-base sm:text-lg md:text-xl text-primary-100">Des programmes académiques adaptés à vos ambitions
-        </p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 md:mb-4 animate-fade-in-up">Nos Formations</h1>
+        <p class="text-base sm:text-lg md:text-xl text-primary-100 animate-fade-in-up-delay">Des programmes académiques adaptés à vos ambitions</p>
       </div>
     </section>
 
