@@ -62,17 +62,12 @@
               Découvrez notre institut en vidéo
             </p>
           </div>
-          <div class="relative rounded-lg md:rounded-xl overflow-hidden shadow-2xl bg-black" style="padding-bottom: 56.25%; height: 0; position: relative;">
+          <div class="relative rounded-lg md:rounded-xl overflow-hidden shadow-2xl bg-black"
+            style="padding-bottom: 56.25%; height: 0; position: relative;">
             <!-- YouTube Embed -->
-            <iframe 
-              v-if="useYouTubeEmbed"
-              :src="videoSrc" 
-              class="absolute top-0 left-0 w-full h-full"
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen
-              loading="lazy"
-            ></iframe>
+            <iframe v-if="useYouTubeEmbed" :src="videoSrc" class="absolute top-0 left-0 w-full h-full" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
             <!-- Direct Video -->
             <video v-else class="absolute top-0 left-0 w-full h-full" controls preload="metadata" playsinline>
               <source :src="videoSrc" type="video/mp4" />
@@ -212,11 +207,9 @@
 
 <script setup lang="ts">
 import { h, ref, onMounted, onUnmounted } from 'vue'
-// Video URL - Replace with your hosted video URL (YouTube, Cloudinary, Vimeo, etc.)
-// Example YouTube embed: 'https://www.youtube.com/embed/VIDEO_ID'
-// Example direct video URL: 'https://your-cdn.com/video.mp4'
-const videoSrc = 'https://www.youtube.com/embed/YOUR_VIDEO_ID' // Replace with your video URL
-const useYouTubeEmbed = true // Set to false if using direct video URL
+// Video URL - YouTube embed
+const videoSrc = 'https://www.youtube.com/embed/DL5vY1HVq1k'
+const useYouTubeEmbed = true
 import bienvenueImage from '../assets/opticien-lunetier-isages.png'
 import flyerSanteVisuelle from '../assets/flyer_sante_visuelle.jpeg'
 import flyerSanteVisuelleScience from '../assets/flyer_sante_visuelle_science_paramedicale.jpeg'
